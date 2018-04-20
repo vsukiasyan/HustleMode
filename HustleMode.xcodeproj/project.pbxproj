@@ -14,6 +14,7 @@
 		6736782E20894D91004166FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6736782C20894D91004166FF /* LaunchScreen.storyboard */; };
 		6736783920894D91004166FF /* HustleModeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6736783820894D91004166FF /* HustleModeTests.swift */; };
 		6736784420894D91004166FF /* HustleModeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6736784320894D91004166FF /* HustleModeUITests.swift */; };
+		6736785220894E33004166FF /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6736785120894E33004166FF /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6736783F20894D91004166FF /* HustleModeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HustleModeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6736784320894D91004166FF /* HustleModeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HustleModeUITests.swift; sourceTree = "<group>"; };
 		6736784520894D91004166FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6736785120894E33004166FF /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		6736782220894D91004166FF /* HustleMode */ = {
 			isa = PBXGroup;
 			children = (
+				6736785120894E33004166FF /* hustle-on.wav */,
 				6736782320894D91004166FF /* AppDelegate.swift */,
 				6736782520894D91004166FF /* ViewController.swift */,
 				6736782720894D91004166FF /* Main.storyboard */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6736785220894E33004166FF /* hustle-on.wav in Resources */,
 				6736782E20894D91004166FF /* LaunchScreen.storyboard in Resources */,
 				6736782B20894D91004166FF /* Assets.xcassets in Resources */,
 				6736782920894D91004166FF /* Main.storyboard in Resources */,
@@ -429,6 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P6295RT7MX;
 				INFOPLIST_FILE = HustleMode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.vsukiasyan.HustleMode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P6295RT7MX;
 				INFOPLIST_FILE = HustleMode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.vsukiasyan.HustleMode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
